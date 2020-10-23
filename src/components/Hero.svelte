@@ -1,10 +1,11 @@
 <script>
     export let heroText;
+    export let imgURL;
+    const background = `background: url(${imgURL}) center center no-repeat fixed;`;
 </script>
 
 <style>
-div {
-    background: url(https://picsum.photos/1600/700) center center no-repeat fixed;
+div { 
     background-size: cover;
     width: 100%;
     height: 70vh;
@@ -22,6 +23,6 @@ h2 {
 }
 </style>
 
-<div>
+<div style="{background}">
     <h2>{heroText}</h2>
 </div>

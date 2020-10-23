@@ -1,7 +1,11 @@
 <script>
 	import Hero from '../components/Hero.svelte';
+	import Info from '../components/Info.svelte';
 
-	let heroText = 'A string of words saying things about our company'
+	const heroText = 'A string of words saying things about our company';
+	const imgURL = 'https://picsum.photos/1600/700';
+	const infoText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim.';
+
 </script>
 
 <style>
@@ -42,4 +46,6 @@
 	<title>Nunnally International</title>
 </svelte:head>
 
-<Hero heroText={heroText}/>
+<Hero heroText={heroText} imgURL={imgURL}/>
+
+<Info infoText={infoText} />

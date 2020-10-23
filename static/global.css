@@ -16,6 +16,11 @@ h1 {
 	font-size: 2em;
 }
 
+h2 {
+	font-size: 28px;
+	text-transform: uppercase;
+}
+
 a {
 	color: inherit;
 }

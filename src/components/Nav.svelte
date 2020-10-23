@@ -94,7 +94,7 @@
 			flex-direction: column;
 			align-items: flex-end;
 			position: absolute;
-			top: 75px;
+			top: 85px;
 			right: 5%;
 			z-index: 99;
 			background-color:#FFF;

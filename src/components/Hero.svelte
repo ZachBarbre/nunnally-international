@@ -1,7 +1,7 @@
 <script>
     export let heroText;
     export let imgURL;
-    const background = `background: url(${imgURL}) center center no-repeat fixed;`;
+    const background = `background: url(${imgURL}) center center no-repeat;`;
 </script>
 
 <style>

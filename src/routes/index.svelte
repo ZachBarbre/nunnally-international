@@ -1,10 +1,28 @@
 <script>
+	import Card from '../components/Card.svelte';
 	import Hero from '../components/Hero.svelte';
 	import Info from '../components/Info.svelte';
 
 	const heroText = 'A string of words saying things about our company';
 	const imgURL = 'https://picsum.photos/1600/700';
 	const infoText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim.';
+
+	const firstCardContent = {
+		imgUrl	: 'https://via.placeholder.com/600', 
+		imgAlt: 'A discription of the image',
+		text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim.',
+		header: 'Header Number One',
+		background: 'background: #D6DDD9;',
+		isFipped: true	
+	}
+
+	const secondCardContent = {
+		imgUrl	: 'https://via.placeholder.com/600', 
+		imgAlt: 'A discription of the image',
+		text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim.',
+		header: 'Header Number Two', 
+		
+	}
 
 </script>
 
@@ -49,3 +67,7 @@
 <Hero heroText={heroText} imgURL={imgURL}/>
 
 <Info infoText={infoText} />
+
+<Card content={firstCardContent}/>
+
+<Card content={secondCardContent}/>

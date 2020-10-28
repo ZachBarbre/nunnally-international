@@ -1,3 +1,9 @@
+:root {
+	--primary: #6fafd7;
+	--secondary: #1F2041;
+	--backgroud: #D7B49E;
+}
+
 body {
 	margin: 0;
 	font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -18,6 +24,11 @@ h1 {
 
 h2 {
 	font-size: 28px;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 24px;
 	text-transform: uppercase;
 }
 

@@ -2,6 +2,7 @@
 	import Card from '../components/Card.svelte';
 	import Hero from '../components/Hero.svelte';
 	import Info from '../components/Info.svelte';
+	import BulletPoints from '../components/BulletPoints.svelte';
 
 	const heroText = 'A string of words saying things about our company';
 	const imgURL = 'https://picsum.photos/1600/700';
@@ -21,7 +22,30 @@
 		imgAlt: 'A discription of the image',
 		text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim.',
 		header: 'Header Number Two', 
-		
+	}
+
+	const bulletPointContent = {
+		title: 'Header of the Bullet Points',
+		points: [
+			{
+				img: 'https://via.placeholder.com/60',
+				imgAlt: 'Discription of the image',
+				header: 'Bullet Point One',
+				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.'
+			},
+			{
+				img: 'https://via.placeholder.com/60',
+				imgAlt: 'Discription of the image',
+				header: 'Bullet Point Two',
+				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.'
+			},
+			{
+				img: 'https://via.placeholder.com/60',
+				imgAlt: 'Discription of the image',
+				header: 'Bullet Point Three',
+				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.'
+			},
+		]
 	}
 
 </script>
@@ -71,3 +95,5 @@
 <Card content={firstCardContent}/>
 
 <Card content={secondCardContent}/>
+
+<BulletPoints content={bulletPointContent} />

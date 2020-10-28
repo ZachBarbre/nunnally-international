@@ -7,7 +7,7 @@
 
 <style>
 section {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     padding: 5% 0;
 }

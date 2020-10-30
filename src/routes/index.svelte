@@ -22,6 +22,7 @@
 		imgAlt: 'A discription of the image',
 		text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim.',
 		header: 'Header Number Two', 
+		background: 'background: #FFFFFF;',
 	}
 
 	const bulletPointContent = {

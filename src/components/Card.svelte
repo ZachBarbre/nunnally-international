@@ -2,7 +2,6 @@
     export let content;
     console.log(content)
     const { imgUrl, imgAlt, text, header, background, isFipped } = content;
-    console.log(background.includes('url'))
 </script>
 
 <style>

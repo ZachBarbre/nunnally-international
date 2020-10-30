@@ -1,8 +1,8 @@
 <script>
 	import Hero from "../components/Hero.svelte";
-	import Info from '../components/Info.svelte'
+	import Info from '../components/Info.svelte';
 	import Card from "../components/Card.svelte";
-import BulletPoints from "../components/BulletPoints.svelte";
+	import BulletPoints from "../components/BulletPoints.svelte";
 
 
 	const heroText = 'The hero text discribing our advantage';
@@ -21,7 +21,7 @@ import BulletPoints from "../components/BulletPoints.svelte";
 
 	const secondCardContent = {
 		imgUrl	: '', 
-		imgAlt: 'A discription of the image',
+		imgAlt: '',
 		text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim.',
 		header: 'Header Number Two',
 		background: 'background: url("https://picsum.photos/1900/700") center center no-repeat;',

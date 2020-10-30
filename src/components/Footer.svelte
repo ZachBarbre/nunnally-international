@@ -64,5 +64,5 @@
         <a class="social" href="#"><Icon icon={faLinkedin} class="social"></Icon></a>
     </div>
     <p>5555 Vistmont Drive, Decatur GA 300033, United States</p>
-    <p><strong><a href="mailto:tyler.nunnally@gmail.com>">tyler.nunnally@gmail.com</a> | 555-555-5555</strong></p>
+    <p><strong><a href="mailto:tyler.nunnally@gmail.com">tyler.nunnally@gmail.com</a> | 555-555-5555</strong></p>
 </footer>

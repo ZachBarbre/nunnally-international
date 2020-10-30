@@ -2,7 +2,7 @@
     export let content;
     console.log(content)
     const { imgUrl, imgAlt, text, header, background, isFipped } = content;
-    // console.log(imgUrl)
+    console.log(background.includes('url'))
 </script>
 
 <style>
@@ -10,6 +10,7 @@ section {
     width: 85%;
     margin: 0 auto;
     padding: 5% 0;
+    background-size: cover;
 }
 .card {
     
@@ -21,6 +22,7 @@ section {
 .img-wrapper {
     height: 40vh;
     flex: 0 1 400px;
+    min-width: 200px;
 }
 
 img {
@@ -34,7 +36,8 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1.5rem 0;
+    /* margin: 1.5rem 0; */
+    padding: 1.5rem;
 }
 
 .content p {
@@ -53,19 +56,23 @@ img {
 <section style="{background}">
     <div class="card">
         {#if isFipped}            
-        <div class="content">
+        <div class="content" style="{background.includes('url') ? 'background: #FFF' : ''}">
             <h3>{header}</h3>   
             <p>{text}</p>
             <slot></slot>
         </div>
         <div class="img-wrapper">
-            <img src="{imgUrl}" alt="{imgAlt}">
+            {#if imgUrl}
+                <img src="{imgUrl}" alt="{imgAlt}">
+            {/if}
         </div>
         {:else}
         <div class="img-wrapper">
-            <img src="{imgUrl}" alt="{imgAlt}">
+            {#if imgUrl}
+                <img src="{imgUrl}" alt="{imgAlt}">
+            {/if}
         </div>
-        <div class="content">
+        <div class="content" style="{background.includes('url') ? 'background: #FFF' : ''}">
             <h3>{header}</h3>
             <p>{text}</p>
             <slot></slot>

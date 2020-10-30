@@ -4,7 +4,6 @@
 
 <style>
     section {
-        background: #D6DDD9;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -46,7 +45,7 @@
     }
 </style>
 
-<section>
+<section style="{content.background}">
     <h2>{content.title}</h2>
     <div class="point-container">
         {#each content.points as point}

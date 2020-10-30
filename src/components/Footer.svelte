@@ -16,6 +16,10 @@
         text-align: center;
     }
 
+    a {
+        text-decoration: none;
+    }
+
     ul {
         padding: 2% 5% 1% 5%;
         /* margin: 2% auto; */
@@ -32,10 +36,6 @@
         font-size: 18px;
     }
 
-    li a {
-        text-decoration: none;
-    }
-
     .selected {
         color: #6fafd7;
     }
@@ -49,7 +49,7 @@
 </style>
 
 <footer>
-    <h2>Nunnally International, Inc</h2>
+    <h3>Nunnally International, Inc</h3>
     
     <ul>
         <li><a class:selected="{segment === undefined}" href=".">Home</a></li>

@@ -1,12 +1,16 @@
 <script>
 	import Icon from 'fa-svelte';
 	import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+	import { slide } from 'svelte/transition';
 	export let segment;
 
 	let menuBars = faBars;
 
+	let isMobileMenuOpen = false;
+
 	const handleMenu = () => {
 		menuBars = menuBars === faBars ? faTimes : faBars;
+		isMobileMenuOpen = !isMobileMenuOpen;
 	}
 
 </script>
@@ -67,6 +71,11 @@
 		font-size: larger;
 	}
 
+
+	#mobile-menu-button {
+		display: none;
+	}
+
 	@media (max-width: 1000px) {
 		nav {
 			justify-content: space-between;
@@ -75,12 +84,32 @@
 			margin: 1em auto;
 			width: 90%;
 		}
+
 		.nav-menu {
 			display: none;
 		}
 
-		div :global(.size-4x) {
-   			font-size: 40px;
+		.nav-menu-mobile {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+			position: absolute;
+			top: 85px;
+			right: 5%;
+			z-index: 99;
+			background-color:#FFF;
+			border: lightgray 1px solid;
+			padding: 1px 0 5px 0; 
+			width: 30%;
+			min-width: 160px;
+		}
+
+		#mobile-menu-button {
+		display: block;
+		}
+
+		div :global(.size-3x) {
+   			font-size: 30px;
   		}
 	}
 </style>
@@ -89,14 +118,23 @@
 	<div class="logo-nav">
 		<img src="http://via.placeholder.com/150X60" alt="Logo for the Company">
 	</div>
-	<ul class='nav-menu'>
+	<ul class="nav-menu">
 		<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">Home</a></li>
 		<li><a aria-current="{segment === 'advantage' ? 'page' : undefined}" href="advantage">Our Advantage</a></li>
 		<li><a aria-current="{segment === 'services' ? 'page' : undefined}" href="services">Our Services</a></li>
 		<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">About Us</a></li>
 		<li><a aria-current="{segment === 'contact' ? 'page' : undefined}" href="contact"> Contact</a></li>
 	</ul>
-	<div on:click={handleMenu}>
-		<Icon icon={menuBars} class="size-4x"></Icon>
+	{#if isMobileMenuOpen}
+		<ul class="nav-menu-mobile" on:click="{handleMenu}" transition:slide>
+			<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">Home</a></li>
+			<li><a aria-current="{segment === 'advantage' ? 'page' : undefined}" href="advantage">Our Advantage</a></li>
+			<li><a aria-current="{segment === 'services' ? 'page' : undefined}" href="services">Our Services</a></li>
+			<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">About Us</a></li>
+			<li><a aria-current="{segment === 'contact' ? 'page' : undefined}" href="contact"> Contact</a></li>
+		</ul>
+	{/if}
+	<div id="mobile-menu-button" on:click={handleMenu}>
+		<Icon icon={menuBars} class="size-3x"></Icon>
 	</div>
 </nav>

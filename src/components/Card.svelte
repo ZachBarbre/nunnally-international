@@ -19,8 +19,8 @@ section {
 }
 
 .img-wrapper {
-    height: 40vh;
-    flex: 0 1 400px;
+    height: 35vh;
+    flex: 0 1 550px;
     min-width: 200px;
 }
 

@@ -43,10 +43,15 @@
         padding: 1.5rem 0 1rem 0;
         font-size: 1.4rem;
     }
+
+    p {
+        text-align: center;
+    }
 </style>
 
 <section style="{content.background}">
     <h2>{content.title}</h2>
+    <slot></slot>
     <div class="point-container">
         {#each content.points as point}
             <div class="point">

@@ -1,18 +1,9 @@
 <script>
 	import Hero from "../components/Hero.svelte";
-	import Card from "../components/Card.svelte";
 
-	const heroText = 'The hero text discribing our advantage';
+	const heroText = 'Perspective. Transparency. Perseverance.';
 	const imgURL = 'https://picsum.photos/1900/700';
 
-	const firstCardContent = {
-		imgUrl	: '', 
-		imgAlt: '',
-		text: 'This will be a contact form if you would like. They normally come to you as emails. I do not find them useful but it is up to you. Typical fields are Name, email, subject, and message',
-		header: 'Contact Form',
-		background: 'background: url("https://picsum.photos/1900/700") center center no-repeat;',
-		isFipped: true	
-	}
 </script>
 
 <style>
@@ -53,7 +44,7 @@
 
 	address {
 		font-style: normal;
-		font-size: 1rem;
+		font-size: 1.5rem;
 		text-align: center;
 	}
 
@@ -73,16 +64,13 @@
     <h2>Contact Information</h2>
     <div class="point-container">
 		<div class="point">
-			<h4>Location</h4>
-			<address>Your address if you would like it</address>
+			<h4>Tyler Nunnally</h4>
 		</div>
 		<div class="point">
-			<h4><a href="mailto:tyler.nunnally@gmail.com">tyler.nunnally@gmail.com</a></h4>
-			<address>555-555-5555</address>
+			<h4><a href="mailto:info@NunnallyInternational.com">info@NunnallyInternational.com</a></h4>
+			<address>404 492 2152</address>
 		</div>
     </div>
 </section>
-
-<Card content={firstCardContent} />
 
 

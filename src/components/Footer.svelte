@@ -1,7 +1,7 @@
 <script>
     export let segment;
     import Icon from 'fa-svelte';
-    import { faFacebookSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+    import { faTwitterSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 </script>
 
 <style>
@@ -12,15 +12,15 @@
         align-items: center;
     }
 
-    h2 {
-        text-align: center;
-    }
-
     a {
         text-decoration: none;
     }
 
-    ul {
+    li {
+        list-style: none;
+    }
+
+    ul.nav {
         padding: 2% 5% 1% 5%;
         /* margin: 2% auto; */
         display: flex;
@@ -29,15 +29,14 @@
         
     }
 
-    li {
-        list-style: none;
+    ul.nav > li {
         margin: 1% 0;
         padding: 0 0.5rem;
         font-size: 18px;
     }
 
     .selected {
-        color: #6fafd7;
+        color: #00A9E1;
     }
 
     .social {
@@ -45,13 +44,32 @@
         color: lightgray;
         padding: 0 5px;
     }
+
+    .social:hover {
+        color: #034078;
+    }
+
+    .copyright {
+        font-size: small;
+        margin-top: 2%;
+    }
     
+    ul.contact {
+        padding-inline-start: 0;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    ul.contact > li {
+        padding: 1% 1%;
+    }
 </style>
 
-<footer>
-    <h3>Nunnally International, Inc</h3>
-    
-    <ul>
+<footer>   
+    <ul class="nav">
         <li><a class:selected="{segment === undefined}" href=".">Home</a></li>
         <li><a class:selected="{segment === 'advantage'}" href="advantage">Our Advantage</a></li>
         <li><a class:selected="{segment === 'services'}" href="services">Our Services</a></li>
@@ -60,9 +78,21 @@
     </ul>
     
     <div>
-        <a class="social" href="#"><Icon icon={faFacebookSquare} class="social"></Icon></a>
-        <a class="social" href="#"><Icon icon={faLinkedin} class="social"></Icon></a>
+        <a class="social" href="https://www.linkedin.com/in/tylernunnally/">
+            <Icon icon={faLinkedin} class="social"></Icon>
+        </a>
+        <a class="social" href="https://twitter.com/tylerdnunnally/">
+            <Icon icon={faTwitterSquare} class="social"></Icon>
+        </a>
     </div>
-    <p>5555 Vistmont Drive, Decatur GA 300033, United States</p>
-    <p><strong><a href="mailto:tyler.nunnally@gmail.com">tyler.nunnally@gmail.com</a> | 555-555-5555</strong></p>
+    <ul class="contact">
+        <li>Nunnally International, Inc</li>
+        <li>|</li>
+        <li>Atlanta Georgia, USA</li>
+        <li>|</li>
+        <li><strong><a href="mailto:info@NunnallyInternational.com">info@NunnallyInternational.com</a></strong></li>
+        <li>|</li>
+        <li>404 492 2152</li>
+    </ul>
+    <p class='copyright'>©2020 Nunnally International, Inc. ALL RIGHTS RESERVED.</p>
 </footer>

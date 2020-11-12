@@ -118,7 +118,7 @@
 	<button  on:click={() => biography = !biography}>PROFESSIONAL BIOGRAPHY</button>
 </Card>
 {#if biography}
-	<div class='additional' transition:slide>
+	<article class='additional' transition:slide>
 		<p>
 			I did not start-out as an analyst at an investment bank or work for a  Wall Street firm. I began my career as  a 24-year old entrepreneur in Prague, Czech Republic following the collapse of communism in Eastern Europe. I worked in the country throughout the transition from communism to capitalism, and witnessed first-hand how money can bring-out the best and worst in people. 
 		</p>
@@ -128,14 +128,14 @@
 		<p>
 			I sold the business after a successful ten-year run and later joined Oxford University spin-off consultancy, Oxford Risk. I was responsible commercializing the company's investor risk profiling research and worked alongside a team of prominent Oxford academics to bring the product to market.  It proved to be an excellent training ground for an education in behavioral finance which is very beneficial in M&A where biases like endowment effect, confirmation bias and time discounting routinely surface during negotiations.  
 		</p>
-	</div>
+	</article>
 {/if}
 <Card content={secondCardContent}>
 	<p>My career path took some interesting twists and turns before I joined the wealth management industry in 2006 and eventually moved into M&A. The experiences taught me 3 important lessons that explain Nunnally International's approach to M&A and the emphasis we put on strategic objectives, partnership criteria and firm culture to help you find the best fit. It also provides a good indication of what you can expect from us.</p>
 	<button class="learn" on:click={() => learnMore = !learnMore}>LEARN MORE</button>
 </Card>
 {#if learnMore}
-	<div class='additional' transition:slide>
+	<article class='additional' transition:slide>
 		<div class="img-header">
 			<img src="/learn-more-global.svg" alt="the earth over the palm of a hand">
 			<h4><strong>Perspective</strong></h4>
@@ -166,5 +166,5 @@
 		<p>
 			The M&A process is a lot like that. It can be long and tedious with plenty of ups-and-downs along the way.  We advice clients to be mentally prepared from the onset and stick with the process despite the inevitable turmoil along the way.  It takes a toll emotionally, but you have to persevere in order to achieve your goal.  
 		</p>
-	</div>
+	</article>
 {/if}

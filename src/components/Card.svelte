@@ -16,16 +16,18 @@ section {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 .img-wrapper {
-    height: 35vh;
+    /* height: 35vh; */
     flex: 0 1 550px;
     min-width: 200px;
+    position: relative;
 }
 
 img {
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 

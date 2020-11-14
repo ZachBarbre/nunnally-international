@@ -57,27 +57,27 @@ img {
 <section style="{background}">
     <div class="card">
         {#if isFipped}            
-        <div class="content" style="{background.includes('url') ? 'background: #FFF' : ''}">
-            <h3>{header}</h3>   
-            <p>{text}</p>
-            <slot></slot>
-        </div>
-        <div class="img-wrapper">
-            {#if imgUrl}
-                <img src="{imgUrl}" alt="{imgAlt}">
-            {/if}
-        </div>
+            <div class="content" style="{background.includes('url') ? 'background: #FFF' : ''}">
+                <h3>{header}</h3>   
+                <p>{text}</p>
+                <slot></slot>
+            </div>
+            <div class="img-wrapper">
+                {#if imgUrl}
+                    <img src="{imgUrl}" alt="{imgAlt}">
+                {/if}
+            </div>
         {:else}
-        <div class="img-wrapper">
-            {#if imgUrl}
-                <img src="{imgUrl}" alt="{imgAlt}">
-            {/if}
-        </div>
-        <div class="content" style="{background.includes('url') ? 'background: #FFF' : ''}">
-            <h3>{header}</h3>
-            <p>{text}</p>
-            <slot></slot>
-        </div>
+            <div class="img-wrapper">
+                {#if imgUrl}
+                    <img src="{imgUrl}" alt="{imgAlt}">
+                {/if}
+            </div>
+            <div class="content" style="{background.includes('url') ? 'background: #FFF' : ''}">
+                <h3>{header}</h3>
+                <p>{text}</p>
+                <slot></slot>
+            </div>
         {/if}
     </div>
 </section>

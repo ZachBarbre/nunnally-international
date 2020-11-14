@@ -4,8 +4,8 @@
 	import Info from '../components/Info.svelte';
 	import { slide } from 'svelte/transition';
 
-	const heroText = 'A Header describing  our company';
-	const imgURL = 'https://picsum.photos/1550/700';
+	const heroText = 'Perspective. Transparency. Perseverance.';
+	const background = `background: url(/Atlanta.jpg) top center no-repeat;`;
 	const infoText = 'Nunnally International was founded.......';
 
 	const firstCardContent = {
@@ -109,7 +109,7 @@
 	<title>About | Nunnally International</title>
 </svelte:head>
 
-<Hero heroText={heroText} imgURL={imgURL}/>
+<Hero heroText={heroText} background={background}/>
 <Info infoText={infoText} />
 
 <Card content={firstCardContent}>

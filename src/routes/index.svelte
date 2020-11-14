@@ -5,7 +5,7 @@
 	import BulletPoints from '../components/BulletPoints.svelte';
 
 	const heroText = 'Perspective. Transparency. Perseverance.';
-	const imgURL = 'https://picsum.photos/1900/700';
+	const background = `background: url(/Atlanta.jpg) top center no-repeat;`;
 	const infoText = 'Nunnally International provides strategic M&A services to RIA firms that are looking to buy, sell or merge their business.';
 
 	const firstCardContent = {
@@ -65,7 +65,7 @@
 	<title>Nunnally International</title>
 </svelte:head>
 
-<Hero heroText={heroText} imgURL={imgURL}/>
+<Hero heroText={heroText} background={background}/>
 
 <Info infoText={infoText} />
 

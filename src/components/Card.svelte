@@ -32,7 +32,7 @@ img {
 }
 
 .content {
-    flex: 0 1 400px;
+    flex: 0 1 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;

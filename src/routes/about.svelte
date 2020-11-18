@@ -5,7 +5,7 @@
 	import { slide } from 'svelte/transition';
 
 	const heroText = 'Perspective. Transparency. Perseverance.';
-	const background = `background: url(/Atlanta.jpg) top center no-repeat;`;
+	const background = `background: url(/cheers.jpg) top 25% center no-repeat;`;
 	const infoText = 'Nunnally International was founded.......';
 
 	const firstCardContent = {

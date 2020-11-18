@@ -6,7 +6,6 @@
 
 	const heroText = 'Perspective. Transparency. Perseverance.';
 	const background = `background: url(/Atlanta.jpg) top center no-repeat;`;
-	
 </script>
 
 <style>
@@ -55,7 +54,7 @@
     }
 
     h4 {
-		font-weight: 600;
+		/* font-weight: 600; */
         padding: 1.5rem 0 1rem 0;
         font-size: 1.4rem;
 		margin: 0;
@@ -90,7 +89,7 @@
 	<title>Contact | Nunnally International</title>
 </svelte:head>
 
-<Hero {heroText} {background}/>
+<Hero {heroText} {background} />
 
 <section>
     <div class="img-wrapper">

@@ -120,17 +120,17 @@
 	</div>
 	<ul class="nav-menu">
 		<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">Home</a></li>
+		<li><a aria-current="{segment === 'how-we-work' ? 'page' : undefined}" href="how-we-work">How We Work</a></li>
 		<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">About Us</a></li>
-		<!-- <li><a aria-current="{segment === 'how-we-work' ? 'page' : undefined}" href="advantage">How We Work</a></li>
-		<li><a aria-current="{segment === 'insights' ? 'page' : undefined}" href="services">Insights</a></li> -->
+		<li><a aria-current="{segment === 'insights' ? 'page' : undefined}" href="insights">Insights</a></li>
 		<li><a aria-current="{segment === 'contact' ? 'page' : undefined}" href="contact"> Contact</a></li>
 	</ul>
 	{#if isMobileMenuOpen}
 		<ul class="nav-menu-mobile" on:click="{handleMenu}" transition:slide>
 			<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">Home</a></li>
+			<li><a aria-current="{segment === 'how-we-work' ? 'page' : undefined}" href="how-we-work">How We Work</a></li>
 			<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">About Us</a></li>
-			<!-- <li><a aria-current="{segment === 'how-we-work' ? 'page' : undefined}" href="advantage">How We Work</a></li>
-			<li><a aria-current="{segment === 'insights' ? 'page' : undefined}" href="services">Insights</a></li> -->
+			<li><a aria-current="{segment === 'insights' ? 'page' : undefined}" href="insights">Insights</a></li>
 			<li><a aria-current="{segment === 'contact' ? 'page' : undefined}" href="contact"> Contact</a></li>
 		</ul>
 	{/if}

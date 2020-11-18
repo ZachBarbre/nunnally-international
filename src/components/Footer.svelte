@@ -71,10 +71,10 @@
 <footer>   
     <ul class="nav">
         <li><a class:selected="{segment === undefined}" href=".">Home</a></li>
-        <li><a class:selected="{segment === 'advantage'}" href="advantage">Our Advantage</a></li>
-        <li><a class:selected="{segment === 'services'}" href="services">Our Services</a></li>
-        <li><a class:selected="{segment === 'about'}" href="about">About Us</a></li>
-        <li><a class:selected="{segment === 'contact'}" href="contact">Contact</a></li>
+        <li><a class:selected="{segment === 'advantage'}" href="how-we-work">How We Work</a></li>
+        <li><a class:selected="{segment === 'services'}" href="about">About Us</a></li>
+        <li><a class:selected="{segment === 'about'}" href="insights">Insights</a></li>
+        <li><a class:selected="{segment === 'contact'}" href="contact"> Contact</a></li>
     </ul>
     
     <div>

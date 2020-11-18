@@ -5,7 +5,7 @@
 	import BulletPoints from '../components/BulletPoints.svelte';
 
 	const heroText = 'Perspective. Transparency. Perseverance.';
-	const background = `background: url(/Atlanta.jpg) top center no-repeat;`;
+	const background = `background: url(/handshake-in-group.jpg) top 40% center no-repeat;`;
 	const infoText = 'Nunnally International provides strategic M&A services to RIA firms that are looking to buy, sell or merge their business.';
 
 	const firstCardContent = {

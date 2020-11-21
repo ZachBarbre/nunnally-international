@@ -1,47 +1,38 @@
 <script>
     import Hero from "../components/Hero.svelte";
-	import Info from '../components/Info.svelte'
-    import Card from "../components/Card.svelte";
+	import Info from '../components/Info.svelte';
+	import Reports from "../components/Reports.svelte";
     
-    const heroText = 'hero text about the services we provide';
-	const imgURL = 'https://picsum.photos/1900/700';
+	const heroText = 'Perspective. Transparency. Perseverance.';
+	const background = `background: url(/high-five.jpg) top 25% center no-repeat;`;
 
-	const infoText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim.'
+	const reportsInfoText = 'Market Intelligence: Access our latest market analysis and research on the RIA M&A market';
 
-	const firstCardContent = {
-		imgUrl	: 'https://via.placeholder.com/600', 
-		imgAlt: 'A discription of the image',
-		text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim.',
-		header: 'Header Number One',
-		background: 'background: #D6DDD9;',
-		isFipped: true	
-	}
-	const secondCardContent = {
-		imgUrl	: 'https://via.placeholder.com/600', 
-		imgAlt: 'A discription of the image',
-		text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim.',
-		header: 'Header Number Two',
-		background: 'background: #D6DDD9;',
-		// isFipped: true	
-    }
-    const thridCardContent = {
-		imgUrl	: '', 
-		imgAlt: '',
-		text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim.',
-		header: 'Header Number Three',
-		background: 'background: url(https://picsum.photos/1900/700) center center no-repeat;',
-		isFipped: true	
-	}
+	const reports = {reports: [
+		{
+			title: 'How Much is My RIA Worth?',
+			description: 'Evaluation of the impact of Covid-19 and subsequent market volatility on valuations.',
+			downloadURI: '/RIA M&A Market Report - How Much is My RIA Worth.pdf'
+		},
+		{
+			title: 'Is It the Right Time to Sell?',
+			description: 'Analysis of the 3 primary factors that are driving RIA M&A deals to record highs.',
+			downloadURI: '/RIA M&A MARKET REPORT - Is it the Right Time to Sell.pdf'
+		},
+	]};
+
+	const dealsInfoText = 'M&A Deals: Our most recently completed transactions';
 </script>
 
 <svelte:head>
     <title>Our Services | Nunnally International</title>
 </svelte:head>
 
-<Hero heroText={heroText} imgURL={imgURL} />
+<Hero {heroText} {background} />
 
-<Info infoText={infoText} />
+<Info infoText={reportsInfoText} />
 
-<Card content={firstCardContent} />
-<Card content={secondCardContent} />
-<Card content={thridCardContent} />
+<Reports {reports} />
+
+<Info infoText={dealsInfoText} />
+

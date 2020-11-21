@@ -43,16 +43,25 @@
         padding: 1.5rem 0 1rem 0;
         font-size: 1.4rem;
     }
+
+    p {
+        text-align: center;
+    }
 </style>
 
 <section style="{content.background}">
-    <h2>{content.title}</h2>
+    {#if content.title}
+        <h2>{content.title}</h2>
+    {/if}
+    <slot></slot>
     <div class="point-container">
         {#each content.points as point}
             <div class="point">
-                <div class="img-wrapper">
-                    <img src="{point.img}" alt="{point.imgAlt}">
-                </div>
+                {#if point.img}
+                    <div class="img-wrapper">
+                        <img src="{point.img}" alt="{point.imgAlt}">
+                    </div>
+                {/if}
                 <h4>{point.header}</h4>
                 <p>{point.text}</p>
             </div>

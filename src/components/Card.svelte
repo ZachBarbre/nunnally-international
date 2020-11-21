@@ -16,21 +16,23 @@ section {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 .img-wrapper {
-    height: 40vh;
-    flex: 0 1 400px;
+    /* height: 35vh; */
+    flex: 0 1 550px;
     min-width: 200px;
+    position: relative;
 }
 
 img {
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 
 .content {
-    flex: 0 1 400px;
+    flex: 0 1 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,27 +57,27 @@ img {
 <section style="{background}">
     <div class="card">
         {#if isFipped}            
-        <div class="content" style="{background.includes('url') ? 'background: #FFF' : ''}">
-            <h3>{header}</h3>   
-            <p>{text}</p>
-            <slot></slot>
-        </div>
-        <div class="img-wrapper">
-            {#if imgUrl}
-                <img src="{imgUrl}" alt="{imgAlt}">
-            {/if}
-        </div>
+            <div class="content" style="{background.includes('url') ? 'background: #FFF' : ''}">
+                <h3>{header}</h3>   
+                <p>{text}</p>
+                <slot></slot>
+            </div>
+            <div class="img-wrapper">
+                {#if imgUrl}
+                    <img src="{imgUrl}" alt="{imgAlt}">
+                {/if}
+            </div>
         {:else}
-        <div class="img-wrapper">
-            {#if imgUrl}
-                <img src="{imgUrl}" alt="{imgAlt}">
-            {/if}
-        </div>
-        <div class="content" style="{background.includes('url') ? 'background: #FFF' : ''}">
-            <h3>{header}</h3>
-            <p>{text}</p>
-            <slot></slot>
-        </div>
+            <div class="img-wrapper">
+                {#if imgUrl}
+                    <img src="{imgUrl}" alt="{imgAlt}">
+                {/if}
+            </div>
+            <div class="content" style="{background.includes('url') ? 'background: #FFF' : ''}">
+                <h3>{header}</h3>
+                <p>{text}</p>
+                <slot></slot>
+            </div>
         {/if}
     </div>
 </section>

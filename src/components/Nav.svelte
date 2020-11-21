@@ -41,7 +41,7 @@
 	}
 
 	.logo-nav {
-		padding: 0 1rem;
+		padding: .5rem 1rem 0 0;
 	}
 
 	li {
@@ -59,7 +59,7 @@
 		content: '';
 		width: calc(100% - 1em);
 		height: 2px;
-		background-color: #6fafd7;
+		background-color: #00A9E1;
 		display: block;
 		bottom: -1px;
 	}
@@ -109,28 +109,28 @@
 		}
 
 		div :global(.size-3x) {
-   			font-size: 30px;
+   			font-size: 25px;
   		}
 	}
 </style>
 
 <nav>
 	<div class="logo-nav">
-		<img src="http://via.placeholder.com/150X60" alt="Logo for the Company">
+		<img src="/logo.png" alt="Nunnally International">
 	</div>
 	<ul class="nav-menu">
 		<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">Home</a></li>
-		<li><a aria-current="{segment === 'advantage' ? 'page' : undefined}" href="advantage">Our Advantage</a></li>
-		<li><a aria-current="{segment === 'services' ? 'page' : undefined}" href="services">Our Services</a></li>
+		<li><a aria-current="{segment === 'how-we-work' ? 'page' : undefined}" href="how-we-work">How We Work</a></li>
 		<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">About Us</a></li>
+		<li><a aria-current="{segment === 'insights' ? 'page' : undefined}" href="insights">Insights</a></li>
 		<li><a aria-current="{segment === 'contact' ? 'page' : undefined}" href="contact"> Contact</a></li>
 	</ul>
 	{#if isMobileMenuOpen}
 		<ul class="nav-menu-mobile" on:click="{handleMenu}" transition:slide>
 			<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">Home</a></li>
-			<li><a aria-current="{segment === 'advantage' ? 'page' : undefined}" href="advantage">Our Advantage</a></li>
-			<li><a aria-current="{segment === 'services' ? 'page' : undefined}" href="services">Our Services</a></li>
+			<li><a aria-current="{segment === 'how-we-work' ? 'page' : undefined}" href="how-we-work">How We Work</a></li>
 			<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">About Us</a></li>
+			<li><a aria-current="{segment === 'insights' ? 'page' : undefined}" href="insights">Insights</a></li>
 			<li><a aria-current="{segment === 'contact' ? 'page' : undefined}" href="contact"> Contact</a></li>
 		</ul>
 	{/if}

@@ -2,12 +2,12 @@
     import Hero from "../components/Hero.svelte";
 	import Info from '../components/Info.svelte';
 	import Reports from "../components/Reports.svelte";
+	import Deals from '../components/Deals.svelte';
     
 	const heroText = 'Perspective. Transparency. Perseverance.';
 	const background = `background: url(/high-five.jpg) top 25% center no-repeat;`;
 
 	const reportsInfoText = 'Market Intelligence: Access our latest market analysis and research on the RIA M&A market';
-
 	const reports = {reports: [
 		{
 			title: 'How Much is My RIA Worth?',
@@ -22,6 +22,15 @@
 	]};
 
 	const dealsInfoText = 'M&A Deals: Our most recently completed transactions';
+	const deals = {deals: [
+		{
+			acquiredLogo: '/pfa-logo.png',
+			acquiredAlt: 'Personal Financial Advisors Logo',
+			acquiredByLogo: '/mercer-logo.png',
+			acquiredByAlt: 'Mercer Advisors Logo'
+		}
+	]}
+	console.log(deals)
 </script>
 
 <svelte:head>
@@ -36,3 +45,4 @@
 
 <Info infoText={dealsInfoText} />
 
+<Deals {deals} />

@@ -17,7 +17,8 @@
     }
 
     .img-wrapper {
-        display: flex;
+        width: 95%;
+        max-width: 648px;
         margin: 2% auto;
     }
 
@@ -113,14 +114,6 @@
 		</div>
 		<div class="point">
 			<h4>Connect with Us on Social Media</h4>
-			<!-- <div class="contact-social">
-                <a class="social" href="https://twitter.com/tylerdnunnally/">
-                    <Icon icon={faTwitterSquare}></Icon>
-                </a>
-                <a class="social" href="https://www.linkedin.com/in/tylernunnally/">
-                    <Icon icon={faLinkedin}></Icon>
-                </a>
-            </div> -->
             <div class="contact-item">
                 <a href="https://twitter.com/tylerdnunnally/" class="socal-icon">
                     <Icon icon={faTwitterSquare}></Icon>
@@ -128,7 +121,7 @@
                 <a href="https://twitter.com/tylerdnunnally/">Twitter</a>
             </div>
             <div class="contact-item">
-                <a href="https://www.linkedin.com/in/tylernunnally/" class="socal-icon">
+                <a href="https://www.linkedin.com/company/nunnally-international-inc" class="socal-icon">
                     <Icon icon={faLinkedin}></Icon>
                 </a>
                 <a href="https://www.linkedin.com/in/tylernunnally/">Linkedin</a>

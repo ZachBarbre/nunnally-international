@@ -1,6 +1,5 @@
 <script>
     export let content;
-    console.log(content)
     const { imgUrl, imgAlt, text, header, background, isFipped } = content;
 </script>
 

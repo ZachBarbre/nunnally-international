@@ -31,12 +31,12 @@
 
     ul.nav > li {
         margin: 1% 0;
-        padding: 0 0.5rem;
+        padding: 0 1.4rem;
         font-size: 18px;
     }
 
     .selected {
-        color: #00A9E1;
+        color: #00A7E2;
     }
 
     .social {
@@ -71,17 +71,17 @@
 <footer>   
     <ul class="nav">
         <li><a class:selected="{segment === undefined}" href=".">Home</a></li>
-        <li><a class:selected="{segment === 'advantage'}" href="how-we-work">How We Work</a></li>
-        <li><a class:selected="{segment === 'services'}" href="about">About Us</a></li>
-        <li><a class:selected="{segment === 'about'}" href="insights">Insights</a></li>
+        <li><a class:selected="{segment === 'how-we-work'}" href="how-we-work">How We Work</a></li>
+        <li><a class:selected="{segment === 'about'}" href="about">About Us</a></li>
+        <li><a class:selected="{segment === 'insights'}" href="insights">Insights</a></li>
         <li><a class:selected="{segment === 'contact'}" href="contact"> Contact</a></li>
     </ul>
     
     <div>
-        <a class="social" href="https://www.linkedin.com/in/tylernunnally/">
+        <a class="social" href="https://www.linkedin.com/company/nunnally-international-inc" aria-label="Nunnaly International Linkedin">
             <Icon icon={faLinkedin} class="social"></Icon>
         </a>
-        <a class="social" href="https://twitter.com/tylerdnunnally/">
+        <a class="social" href="https://twitter.com/tylerdnunnally/" aria-label="Nunnally International Twitter">
             <Icon icon={faTwitterSquare} class="social"></Icon>
         </a>
     </div>

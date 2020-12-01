@@ -39,7 +39,7 @@
         margin: 5% 0;
     }
 
-    h4 {
+    h3 {
         padding: 1.5rem 0 1rem 0;
         font-size: 1.4rem;
     }
@@ -62,7 +62,7 @@
                         <img src="{point.img}" alt="{point.imgAlt}">
                     </div>
                 {/if}
-                <h4>{point.header}</h4>
+                <h3>{point.header}</h3>
                 <p>{point.text}</p>
             </div>
         {/each}

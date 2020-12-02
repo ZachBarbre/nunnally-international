@@ -5,7 +5,7 @@
 	import BulletPoints from '../components/BulletPoints.svelte';
 
 	const heroText = 'Perspective. Transparency. Perseverance.';
-	const background = `background: url(/handshake-in-group.jpg) top 40% center no-repeat;`;
+	const background = `background: url(/handshake-in-group.jpg) top 42% center no-repeat;`;
 	const infoText = 'Nunnally International provides strategic M&A services to RIA firms that are looking to buy, sell or merge their business.';
 
 	const firstCardContent = {
@@ -32,22 +32,23 @@
 				img: '/bullet-1-target.svg',
 				imgAlt: 'An arrow hitting a bullseye',
 				header: 'Strategic Objectives',
-				text: 'What are your goals and how can M&A help you achieve them? Is your intent to grow, diversify, adapt or create a succession plan?'
+				text: ['What are your goals and how can M&A help you achieve them? Is your intent to grow, diversify, adapt or create a succession plan?']
 			},
 			{
 				img: '/bullet-2-handshake.svg',
 				imgAlt: 'Handshake',
 				header: 'Partnership Criteria',
-				text: "Who can help you achieve your objectives? What characteristics define an ideal strategic partner? What's that's profile look like?"
+				text: ["Who can help you achieve your objectives? What characteristics define an ideal strategic partner? What's that's profile look like?"]
 			},
 			{
 				img: '/bullet-3-puzzle.svg',
 				imgAlt: 'Interlocking puzzle pieces',
 				header: 'Firm Culture',
-				text: 'Do you share the same worldview, investment philosophy and ambitions? What synergies exists professionally and personally between firm principles?'
+				text: ['Do you share the same worldview, investment philosophy and ambitions? What synergies exists professionally and personally between firm principles?']
 			},
 		],
-		background: 'background: #D6DDD9;'
+		background: 'background: #D6DDD9;',
+		width: ''
 	}
 
 </script>

@@ -7,7 +7,7 @@
 section {
     width: 85%;
     margin: 0 auto;
-    padding: 5% 0;
+    padding: 4rem 0;
     background-size: cover;
 }
 .card {
@@ -20,9 +20,10 @@ section {
 
 .img-wrapper {
     /* height: 35vh; */
-    flex: 0 1 550px;
+    flex: 0 1 510px;
     min-width: 200px;
     position: relative;
+    padding-left: 5px;
 }
 
 img {
@@ -42,7 +43,7 @@ img {
 
 .content p {
     font-size: 18px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 @media (max-width: 1000px) {
@@ -59,7 +60,7 @@ img {
             <div class="content" style="{background.includes('url') ? 'background: #FFF' : ''}">
                 <h3>{header}</h3>   
                 <p>{text}</p>
-                <slot></slot>
+                <slot name="side"></slot>
             </div>
             <div class="img-wrapper">
                 {#if imgUrl}
@@ -75,8 +76,9 @@ img {
             <div class="content" style="{background.includes('url') ? 'background: #FFF' : ''}">
                 <h3>{header}</h3>
                 <p>{text}</p>
-                <slot></slot>
+                <slot name="side"></slot>
             </div>
         {/if}
     </div>
+    <slot name="under"></slot>
 </section>

@@ -15,10 +15,10 @@
         text-align: center;
     }
     .point-container {
-        width: 70%;
+        width: 75%;
         display: flex;
         justify-content: space-around;
-        align-items: center;
+        align-items: stretch;
         flex-flow: row wrap;
     }
     .img-wrapper {
@@ -30,7 +30,7 @@
         height: 100%;
     }
     .point {
-        flex: 0 1 220px;
+        flex: 0 1 240px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -56,14 +56,16 @@
     <slot></slot>
     <div class="point-container">
         {#each content.points as point}
-            <div class="point">
+            <div class="point" style="{content.width}">
                 {#if point.img}
                     <div class="img-wrapper">
                         <img src="{point.img}" alt="{point.imgAlt}">
                     </div>
                 {/if}
                 <h3>{point.header}</h3>
-                <p>{point.text}</p>
+                {#each point.text as pointText}
+                    <p>{pointText}</p>
+                {/each}
             </div>
         {/each}
     </div>

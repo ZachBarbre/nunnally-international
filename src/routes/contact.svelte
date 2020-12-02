@@ -5,7 +5,7 @@
     import Icon from 'fa-svelte';
 
 	const heroText = 'Perspective. Transparency. Perseverance.';
-	const background = `background: url(/Atlanta.jpg) top center no-repeat;`;
+	const background = `background: url(/Atlanta.jpg) top 5% center no-repeat;`;
 </script>
 
 <style>
@@ -18,7 +18,7 @@
 
     .img-wrapper {
         width: 95%;
-        max-width: 648px;
+        max-width: 500px;
         margin: 2% auto;
     }
 
@@ -94,7 +94,7 @@
 
 <section>
     <div class="img-wrapper">
-        <img src="/logo-large.png" alt="Nunnally International Logo">
+        <img src="/logo-x-large.png" alt="Nunnally International Logo">
     </div>
     <h2>Contact Us</h2>
     <div class="point-container">
@@ -124,7 +124,7 @@
                 <a href="https://www.linkedin.com/company/nunnally-international-inc" class="socal-icon">
                     <Icon icon={faLinkedin}></Icon>
                 </a>
-                <a href="https://www.linkedin.com/in/tylernunnally/">Linkedin</a>
+                <a href="https://www.linkedin.com/company/nunnally-international-inc">Linkedin</a>
             </div>
 		</div>
     </div>

@@ -30,7 +30,6 @@
 			acquiredByAlt: 'Mercer Advisors Logo'
 		}
 	]}
-	console.log(deals)
 </script>
 
 <svelte:head>

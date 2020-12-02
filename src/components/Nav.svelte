@@ -18,7 +18,8 @@
 <style>
 	nav {
 		display: flex;
-		/* justify-content: space-between; */
+		justify-content: space-around;
+		align-items: center;
 		border-bottom: 1px solid rgba(255,62,0,0.1);
 		font-weight: 300;
 		padding: 0 1em;
@@ -29,7 +30,7 @@
 		margin: 0;
 		padding: 0;
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: space-around;
 		min-width: 550px;
 	}
 
@@ -116,13 +117,17 @@
 
 <nav>
 	<div class="logo-nav">
-		<img src="/logo.png" alt="Nunnally International">
+		<img 
+			srcset="/logo.png 150w, /logo-medium.png 225w"
+			sizes="(max-width: 420px) 150px, 225px"
+			src="/logo.png" 
+			alt="Nunnally International">
 	</div>
 	<ul class="nav-menu">
 		<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">Home</a></li>
 		<li><a aria-current="{segment === 'how-we-work' ? 'page' : undefined}" href="how-we-work">How We Work</a></li>
 		<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">About Us</a></li>
-		<li><a aria-current="{segment === 'insights' ? 'page' : undefined}" href="insights">Insights</a></li>
+		<li><a aria-current="{segment === 'insights' ? 'page' : undefined}" href="insights">News & Insights</a></li>
 		<li><a aria-current="{segment === 'contact' ? 'page' : undefined}" href="contact"> Contact</a></li>
 	</ul>
 	{#if isMobileMenuOpen}

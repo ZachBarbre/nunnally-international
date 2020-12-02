@@ -5,7 +5,7 @@
     import Icon from 'fa-svelte';
 
 	const heroText = 'Perspective. Transparency. Perseverance.';
-	const background = `background: url(/Atlanta.jpg) top center no-repeat;`;
+	const background = `background: url(/Atlanta.jpg) top 5% center no-repeat;`;
 </script>
 
 <style>
@@ -17,7 +17,8 @@
     }
 
     .img-wrapper {
-        display: flex;
+        width: 95%;
+        max-width: 500px;
         margin: 2% auto;
     }
 
@@ -93,7 +94,7 @@
 
 <section>
     <div class="img-wrapper">
-        <img src="/logo-large.png" alt="Nunnally International Logo">
+        <img src="/logo-x-large.png" alt="Nunnally International Logo">
     </div>
     <h2>Contact Us</h2>
     <div class="point-container">
@@ -113,14 +114,6 @@
 		</div>
 		<div class="point">
 			<h4>Connect with Us on Social Media</h4>
-			<!-- <div class="contact-social">
-                <a class="social" href="https://twitter.com/tylerdnunnally/">
-                    <Icon icon={faTwitterSquare}></Icon>
-                </a>
-                <a class="social" href="https://www.linkedin.com/in/tylernunnally/">
-                    <Icon icon={faLinkedin}></Icon>
-                </a>
-            </div> -->
             <div class="contact-item">
                 <a href="https://twitter.com/tylerdnunnally/" class="socal-icon">
                     <Icon icon={faTwitterSquare}></Icon>
@@ -128,10 +121,10 @@
                 <a href="https://twitter.com/tylerdnunnally/">Twitter</a>
             </div>
             <div class="contact-item">
-                <a href="https://www.linkedin.com/in/tylernunnally/" class="socal-icon">
+                <a href="https://www.linkedin.com/company/nunnally-international-inc" class="socal-icon">
                     <Icon icon={faLinkedin}></Icon>
                 </a>
-                <a href="https://www.linkedin.com/in/tylernunnally/">Linkedin</a>
+                <a href="https://www.linkedin.com/company/nunnally-international-inc">Linkedin</a>
             </div>
 		</div>
     </div>

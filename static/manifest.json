@@ -2,6 +2,7 @@
 	"background_color": "#ffffff",
 	"theme_color": "#333333",
 	"name": "Nunally International, Inc",
+	"description": "Nunnally International provides strategic M&A services to RIAs that are looking to buy, sell or merge their business.",
 	"short_name": "Nunally International",
 	"display": "minimal-ui",
 	"start_url": "/",

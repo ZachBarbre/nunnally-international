@@ -23,7 +23,7 @@ section {
     flex: 0 1 510px;
     min-width: 200px;
     position: relative;
-    padding-left: 5px;
+    /* padding-left: 5px; */
 }
 
 img {

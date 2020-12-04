@@ -19,8 +19,8 @@
 	const secondCardContent = {
 		imgUrl	: '/handshake-light.jpg', 
 		imgAlt: 'Men shaking hands',
-		text: `Nunnally International serves as a trusted deal source to Buy-Side RIAs through our Referral Partnership Program.  We approach our relationships with referral partners the same way that we do with sell-side RIAs. We get to know you and we go to great lengths to understand your organization's strategic objectives, partnership criteria and firm culture. We look for differentiation between our referral partners and spend the time necessary to fully comprehend your distinctive value proposition.`,
-		header: 'Referral Partnership Program',
+		text: ``,
+		header: 'Buy-Side Advisory',
 		background: 'background: #FEFCFB',
 		isFipped: true
 	}
@@ -28,15 +28,20 @@
 </script>
 
 <style>
-	section {
-		margin: 2% auto;
+	div {
+		/* margin: 2% auto;
 		width: 80%;
-		max-width: 1200px;
+		max-width: 1200px; */
 		font-size: large;
 	}
 
-	h4 {
-		font-size: larger;
+	section {
+		margin: 0 auto;
+		padding: 2% 0 0;
+		width: 80%;
+		min-width: 300px;
+		max-width: 1350px;
+		font-size: large;
 	}
 </style>
 
@@ -64,6 +69,12 @@
 	</section>
 </Card>
 <Card content={secondCardContent}>
+	<div slot="side">
+		<h4>Referral Partnership Program</h4>
+		<p>
+			Nunnally International serves as a trusted deal source to Buy-Side RIAs through our Referral Partnership Program.  We approach our relationships with referral partners the same way that we do with sell-side RIAs. We get to know you and we go to great lengths to understand your organization's strategic objectives, partnership criteria and firm culture. We look for differentiation between our referral partners and spend the time necessary to fully comprehend your distinctive value proposition.
+		</p>
+	</div>
 	<section slot="under">
 		<p>
 			When there is a good fit Nunnally International will introduce you to sell-side RIAs that have been pre-qualified and carefully vetted. We collaborate with each of our referral partners on a non-exclusive basis to ensure a level playing field.  In addition, our compensation and incentives are standardized to eliminate conflicts of interest. 

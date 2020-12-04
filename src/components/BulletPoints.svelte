@@ -42,10 +42,12 @@
     h3 {
         padding: 1.5rem 0 1rem 0;
         font-size: 1.4rem;
+        text-align: center;
     }
 
     p {
         text-align: center;
+        padding: .5em .5em;
     }
 </style>
 

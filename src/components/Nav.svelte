@@ -118,8 +118,8 @@
 <nav>
 	<div class="logo-nav">
 		<img 
-			srcset="/logo.png 150w, /logo-medium.png 225w"
-			sizes="(max-width: 420px) 150px, 225px"
+			srcset="/logo.png 150w, /logo-medium.png 282w"
+			sizes="(max-width: 420px) 150px, 282px"
 			src="/logo.png" 
 			alt="Nunnally International">
 	</div>

@@ -5,12 +5,12 @@
 	import BulletPoints from '../components/BulletPoints.svelte';
 
 	const heroText = 'Perspective. Transparency. Perseverance.';
-	const background = `background: url(/handshake-in-group.jpg) top 42% center no-repeat;`;
+	const background = `background: url(/handshake-in-group.jpg) top 46% center no-repeat;`;
 	const infoText = 'Nunnally International provides strategic M&A services to RIA firms that are looking to buy, sell or merge their business.';
 
 	const firstCardContent = {
 		imgUrl	: '/financial-advice.jpg', 
-		imgAlt: 'A older couple receiving financial advice.',
+		imgAlt: 'A man and woman receiving financial advice.',
 		text: "We've spent years in the investment management industry in multiple capacities and understand the risks, opportunities and challenges that advisors face on a daily basis. We understand that every RIA is uniquely different and we tailor our  M&A guidance to your specific goals and circumstances.",
 		background: 'background: #D6DDD9;',
 		header: 'MARKET KNOWLEDGE',

@@ -14,13 +14,13 @@ section {
     
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .img-wrapper {
     /* height: 35vh; */
-    flex: 0 1 500px;
+    flex: 0 1 510px;
     min-width: 200px;
     position: relative;
     /* padding-left: 5px; */
@@ -37,38 +37,29 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding: 0 1.5rem; */
+    /* margin: 1.5rem 0; */
+    padding: 1.5rem;
 }
 
 .content p {
     font-size: 18px;
+    /* text-align: center; */
 }
 
 .wrapper {
     margin: 0 auto;
-    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 1660px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1000px) {
     section {
         width: 100%;
     }
-    .card {
-        flex-direction: column;
-    }
-    .content {
-        flex: 0 1 auto;
-    }
-    .img-wrapper {
-        flex: 0 1 auto;
-    }
 }
-@media (max-width: 430px) {
-    .content {
-        padding: 0;
-    }
-}
+
 </style>
 
 <section style="{background}">

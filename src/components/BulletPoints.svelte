@@ -36,7 +36,7 @@
         align-items: center;
         background: #FFF;
         padding: 4% 2%;
-        margin: 5% 0;
+        margin: 0 0 5% 0;
     }
 
     h3 {

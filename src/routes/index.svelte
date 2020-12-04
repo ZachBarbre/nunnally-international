@@ -59,6 +59,7 @@
 		text-align: center;
 		font-size: 1.2rem;
 		max-width: 1200px;
+		margin-bottom: 5%;
 	}
 </style>
 

@@ -29,18 +29,10 @@
 
 <style>
 	div {
-		/* margin: 2% auto;
-		width: 80%;
-		max-width: 1200px; */
 		font-size: large;
 	}
 
 	section {
-		margin: 0 auto;
-		padding: 2% 0 0;
-		width: 80%;
-		min-width: 300px;
-		max-width: 1350px;
 		font-size: large;
 	}
 </style>
@@ -54,10 +46,12 @@
 <Info infoText={infoText} />
 
 <Card content={firstCardContent}>
-	<section slot="under">
+	<div slot="side">
 		<p>
 			There are generally two ways we work with sell-side RIAs, giving you an option to choose whichever best suits your specific goals and unique circumstances.
 		</p>
+	</div>
+	<section slot="under">
 		<h4>Referral</h4>
 		<p>
 			Nunnally International, Inc. can introduce your firm to prospective buyers through our existing referral partnerships. The groups we partner with include consolidators, as well as privately-owned independent RIAs. We make introductions in consultation with you and help facilitate the talks.  The matchmaking service is paid for by our partners, and so there is no cost to you. As a matter of principle, do not partner with anyone that we wouldn’t have manage our own money.

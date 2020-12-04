@@ -51,6 +51,7 @@
 		background: 'background: #D6DDD9;',
 		width: 'flex: 0 1 320px;'
 	}
+	const location = 'about'
 </script>
 
 <style>
@@ -93,39 +94,11 @@
 		background-color: #D6DDD9;
 	}
 
-	.additional {
-		margin: 0 auto;
-		padding: 2% 0 0;
-		width: 85%;
-		min-width: 300px;
-		max-width: 1350px;
-	}
-
-	.additional p {
+	article p {
     	font-size: 18px;
     	text-align: left;
 	}
-	
-	p.approach {
-		width: 75%;
-		text-align: justify;
-		font-size: 1.2rem;
-		max-width: 1300px;
-	}
-
-	@media (max-width: 1024px) {
-		.additional {
-			width: 65%;
-			max-width: 500px;
-		}
-	}
-
 	@media (max-width: 430px) {
-		.additional {
-			width: 90%;
-			min-width: 272px;
-		}
-
 		a {
 			margin-left: auto;
 			margin-right: auto;
@@ -138,11 +111,11 @@
 </svelte:head>
 
 <Hero heroText={heroText} background={background}/>
-<Info infoText={infoTextTop} />
+<Info infoText={infoTextTop} {location}/>
 
 <Card content={firstCardContent}>
 	<div slot="side">
-		<h3>Tyler Nunnally</h3>
+		<h3>Tyler D. Nunnally</h3>
 		<p class="title">Founder & CEO</p>
 		<p>
 			Tyler founded Nunnally International, Inc. to focus exclusively on the RIA market after serving as the Head of FinTech at M&A advisory EGL Holdings. Founded in 1988 as a merchant banking firm, EGL Holdings has over 200 mergers, acquisitions and global capital raise transactions to its credit.
@@ -155,8 +128,7 @@
 
 		</p>
 	</div>
-	<article slot="under" class='additional'>
-		
+	<article slot="under">
 		<p>
 			As an industry thought-leader, he has been published widely and interviewed extensively by The Wall Street Journal, Bloomberg, CNBC, Smart Money, Kiplinger and InvestmentNews. In addition to his work in M&A, Tyler serves as an expert witness in FINRA arbitration disputes and has consulted in multibillion-dollar class action lawsuits, including the BP oil spill in the Gulf of Mexico. 
 		</p>
@@ -174,13 +146,16 @@
 		<div slot="side">
 			<p>I began my career as a 24-year old entrepreneur in Prague, Czech Republic following the collapse of communism in Eastern Europe. I started an international trade business there in 1993 and worked in the country throughout the transition from communism to capitalism. To survive and thrive in that environment you had to navigate risks that went beyond the numbers. You had to understand the motivations and incentives that strike at the core human nature.</p>
 		</div>
+		<article slot="under">
+			<p>
+				I sold the business after a successful 10-year run and later joined an Oxford University spin-off consultancy where I worked alongside a prominent team of academics to bring the company’s investor risk profiling research to market. It proved to be an excellent training ground in the study of behavioral finance and the psychology of risk taking. The knowledge that I gained in Oxford was especially rewarding because it linked the behavioral sciences with aspects of human nature I witnessed in Prague.
+			</p>
+			<p>
+				As Founder & CEO of Nunnally International, we apply these lessons in our approach to M&A. It explains the importance we attach to personal relationships and the emphasis we place on risk management.
+			</p>
+		</article>
 	</Card>
 </div>
 <BulletPoints content={bulletPointContent}>
-	<p class="approach">
-		I sold the business after a successful 10-year run and later joined an Oxford University spin-off consultancy where I worked alongside a prominent team of academics to bring the company’s investor risk profiling research to market. It proved to be an excellent training ground in the study of behavioral finance and the psychology of risk taking. The knowledge that I gained in Oxford was especially rewarding because it linked the behavioral sciences with aspects of human nature I witnessed in Prague.
-	</p>
-	<p class="approach">
-		As Founder & CEO of Nunnally International, we apply these lessons in our approach to M&A. It explains the importance we attach to personal relationships and the emphasis we place on risk management.
-	</p>
+
 </BulletPoints>

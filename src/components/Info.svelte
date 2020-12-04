@@ -1,5 +1,6 @@
 <script>
     export let infoText;
+    export let location;
 </script>
 
 <style>
@@ -13,9 +14,13 @@ div {
 p {
     font-size: 1.2rem;
 }
+
+.italic {
+    font-style: italic;
+}
 </style>
 
 <div>
-    <p>{infoText}</p>
+    <p class:italic="{location === 'about'}">{infoText}</p>
     <slot></slot>
 </div>

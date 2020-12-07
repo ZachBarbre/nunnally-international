@@ -5,7 +5,7 @@
 
 	const heroText = 'Perspective. Transparency. Perseverance.';
 	const background = `background: url(/high-five.jpg) top 25% center no-repeat;`;
-	const infoText = 'Nunnally International provides strategic M&A services to RIA firms that are looking to buy, sell or merge their business. We employ investor profiling expertise to help you find the best fit best fit based on your strategic objectives, partnership criteria and firm culture.'
+	const infoText = 'Nunnally International provides strategic M&A services to RIA firms that are looking to buy, sell or merge their business. We employ investor profiling expertise to help you find the best fit based on your strategic objectives, partnership criteria and firm culture.'
 
 	const firstCardContent = {
 		imgUrl	: '/pushing-puzzle.jpg', 

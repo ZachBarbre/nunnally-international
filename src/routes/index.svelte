@@ -14,6 +14,7 @@
 		text: "We've spent years in the investment management industry in multiple capacities and understand the risks, opportunities and challenges that advisors face on a daily basis. We understand that every RIA is uniquely different and we tailor our  M&A guidance to your specific goals and circumstances.",
 		background: 'background: #D6DDD9;',
 		header: 'MARKET KNOWLEDGE',
+		isFipped: true
 	}
 
 	const secondCardContent = {
@@ -22,7 +23,7 @@
 		text: "We act in your best interest by adhering to the same fiduciary principles and standard of care that you do. Our incentives are always aligned with yours and we're only compensated if your M&A deal successfully closes.",
 		header: 'UNCONFLICTED ADVICE', 
 		background: 'background: #fefcfb;',
-		isFipped: true	
+		// isFipped: true	
 	}
 
 	const bulletPointContent = {

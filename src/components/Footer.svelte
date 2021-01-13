@@ -2,6 +2,8 @@
     export let segment;
     import Icon from 'fa-svelte';
     import { faTwitterSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
+    const year = new Date().getFullYear()
 </script>
 
 <style>
@@ -94,5 +96,5 @@
         <li>|</li>
         <li>+1 404 492 2152</li>
     </ul>
-    <p class='copyright'>©2020 Nunnally International, Inc. ALL RIGHTS RESERVED.</p>
+    <p class='copyright'>©{year} Nunnally International, Inc. ALL RIGHTS RESERVED.</p>
 </footer>

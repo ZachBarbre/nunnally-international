@@ -54,7 +54,7 @@ a:hover {
 <div class="container">
     {#each reports.reports as report}
         <div class="card">
-            <p class="top">RIA M&A Market Report</p>
+            <p class="top">{report.superTitle}</p>
             <h3>{report.title}</h3>
             <p>{report.description}</p>
             <a href="{report.downloadURI}" target="_blank" >Download</a>

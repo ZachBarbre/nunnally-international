@@ -23,8 +23,8 @@
 		},
 		{
 			superTitle: 'RIA M&A Advice Series (Part I of III)',
-			title: 'Is It the Right Time to Sell?',
-			description: 'Analysis of the 3 primary factors that are driving RIA M&A deals to record highs.',
+			title: 'STRATEGIC OBJECTIVES',
+			description: '3 factors that are key to your RIA M&A partnership success.',
 			downloadURI: '/RIA M&A Advice Series - Strategic Objectives (Part I of III).pdf'
 		},
 	]};

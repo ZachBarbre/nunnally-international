@@ -10,6 +10,12 @@
 	const reportsInfoText = 'Market Intelligence: Access our latest market analysis and research on the RIA M&A market';
 	const reports = {reports: [
 		{
+			superTitle: 'RIA M&A Advice Series (Part II of III)',
+			title: 'PARTNERSHIP CRITERIA',
+			description: '3 factors that are key to your RIA M&A partnership success.',
+			downloadURI: '/RIA M&A Advice Series - Partnership Criteria (Part II of III).pdf'
+		},
+		{
 			superTitle: 'RIA M&A Advice Series (Part I of III)',
 			title: 'STRATEGIC OBJECTIVES',
 			description: '3 factors that are key to your RIA M&A partnership success.',

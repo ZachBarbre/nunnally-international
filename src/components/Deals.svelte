@@ -27,7 +27,13 @@
 
     .img-wrapper {
         min-width: 200px;
+        max-width: 280px;
         position: relative;
+        min-height: 105px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
 
     img {
@@ -51,7 +57,7 @@
             <div class="img-wrapper">
                 <img src="{deal.acquiredByLogo}" alt="{deal.acquiredByAlt}">
             </div>
-            <p>Nunnally International served as a referral partner in the transaction<p>
+            <p>{deal.acquiredText}<p>
             <div class="img-wrapper">
                 <img src="/logo.png" alt="Nunnally International Logo">
             </div>

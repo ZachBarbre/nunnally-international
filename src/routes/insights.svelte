@@ -38,10 +38,18 @@
 	const dealsInfoText = 'M&A Deals: Our most recently completed transactions';
 	const deals = {deals: [
 		{
+			acquiredLogo: '/loveless-logo.png',
+			acquiredAlt: 'Loveless Wealth Management LLC Logo',
+			acquiredByLogo: '/dakota-logo.png',
+			acquiredByAlt: 'Dakota Wealth Management Logo',
+			acquiredText: 'Nunnally International served as financial advisors to Loveless Wealth Management LLC'
+		},
+		{
 			acquiredLogo: '/pfa-logo.png',
 			acquiredAlt: 'Personal Financial Advisors Logo',
 			acquiredByLogo: '/mercer-logo.png',
-			acquiredByAlt: 'Mercer Advisors Logo'
+			acquiredByAlt: 'Mercer Advisors Logo',
+			acquiredText: 'Nunnally International served as a referral partner in the transaction'
 		}
 	]}
 </script>

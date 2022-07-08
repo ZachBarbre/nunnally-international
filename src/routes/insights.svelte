@@ -11,7 +11,7 @@
 	const reports = {reports: [
 		{
 			superTitle: 'In The News',
-			title: '',
+			title: 'CITYWIRE RIA -',
 			boldDescription: 'Nunnally International represented Loveless Wealth Management in sale to Dakota Wealth Management',
 			description: '',
 			downloadURI: '/CityWire-Nunnally-International-represented-Loveless-Wealth-Management-in-sale-to-Dakota-Wealth-Management.pdf'

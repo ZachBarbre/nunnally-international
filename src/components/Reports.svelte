@@ -30,12 +30,16 @@
     font-size: small;
 }
 
+.bold {
+    font-weight: 500;
+    margin-top: 0;
+}
+
 p {
     font-size: medium;
 }
 
 a {
-    
     cursor: pointer;
     font-size: large;
     padding: .75rem 1rem;
@@ -55,8 +59,15 @@ a:hover {
     {#each reports.reports as report}
         <div class="card">
             <p class="top">{report.superTitle}</p>
-            <h3>{report.title}</h3>
-            <p>{report.description}</p>
+            {#if report.title}
+                <h3>{report.title}</h3>
+            {/if}
+            {#if report.boldDescription}
+                <p class="bold">{report.boldDescription}</p>
+            {/if}
+            {#if report.description}
+                <p>{report.description}</p>
+            {/if}
             <a href="{report.downloadURI}" target="_blank" >Download</a>
         </div>
     {/each}

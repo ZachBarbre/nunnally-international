@@ -11,7 +11,8 @@
 	const reports = {reports: [
 		{
 			superTitle: 'In The News',
-			title: 'Nunnally International represented Loveless Wealth Management in sale to Dakota Wealth Management',
+			title: '',
+			boldDescription: 'Nunnally International represented Loveless Wealth Management in sale to Dakota Wealth Management',
 			description: '',
 			downloadURI: '/CityWire-Nunnally-International-represented-Loveless-Wealth-Management-in-sale-to-Dakota-Wealth-Management.pdf'
 		},
@@ -30,6 +31,7 @@
 		{
 			superTitle: 'RIA M&A Market Report',
 			title: 'How Much is My RIA Worth?',
+			boldDescription: '',
 			description: 'Evaluation of the impact of Covid-19 and subsequent market volatility on valuations.',
 			downloadURI: '/RIA M&A Market Report - How Much is My RIA Worth.pdf'
 		},

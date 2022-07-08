@@ -10,6 +10,12 @@
 	const reportsInfoText = 'Market Intelligence: Access our latest market analysis and research on the RIA M&A market';
 	const reports = {reports: [
 		{
+			superTitle: 'In The News',
+			title: 'Nunnally International represented Loveless Wealth Management in sale to Dakota Wealth Management',
+			description: '',
+			downloadURI: '/CityWire-Nunnally-International-represented-Loveless-Wealth-Management-in-sale-to-Dakota-Wealth-Management.pdf'
+		},
+		{
 			superTitle: 'RIA M&A Advice Series (Part II of III)',
 			title: 'PARTNERSHIP CRITERIA',
 			description: '3 factors that are key to your RIA M&A partnership success.',

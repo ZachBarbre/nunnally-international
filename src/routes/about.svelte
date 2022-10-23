@@ -15,7 +15,7 @@
 		text: ``,
 		header: '',
 		background: 'background: #FEFCFB;',
-		// isFipped: true	
+		sideStyle: 'align-self: start; display: block;'
 	}
 	const secondCardContent = {
 		imgUrl	: '/Prague.jpg', 
@@ -118,27 +118,21 @@
 		<h3>Tyler D. Nunnally</h3>
 		<p class="title">Founder & CEO</p>
 		<p>
-			Tyler founded Nunnally International, Inc. to focus exclusively on the RIA market after serving as the Head of FinTech at M&A advisory EGL Holdings. Founded in 1988 as a merchant banking firm, EGL Holdings has over 200 mergers, acquisitions and global capital raise transactions to its credit.
+			Tyler founded Nunnally International, Inc. to focus exclusively on the RIA market after serving as the Head of FinTech at M&A advisory EGL Holdings. Prior to entering M&A, Tyler served as a strategist to leading advisor technology companies - including investor risk profiling provider FinaMetrica, which was acquired by Morningstar. He began his wealth management career as an executive at Oxford Risk, a spin-out behavioral finance consultancy of Oxford University.
 		</p>
 		<p>
-			Prior entering M&A, Tyler served as a strategist to leading advisor technology companies – including investor risk profiling provider FinaMetrica, which was acquired by Morningstar.  He began his career in the wealth management industry as an executive at Oxford University spin-off consultancy, Oxford Risk.
+			Tyler has consulted hundreds of RIAs on matters of risk as a frequent speaker at industry conferences, the host of countless webinars and key relationship manager to strategic partners at Schwab, TD Ameritrade, Fidelity, LPL, SEI, Redtail, Orion Advisor Services, MoneyGuidePro and Fi360. As an industry thought leader, he has been published widely and interviewed extensively by The Wall Street Journal, Bloomberg, CNBC, Smart Money, Kiplinger and InvestmentNews.
 		</p>
 		<p>
-			Tyler has consulted hundreds of RIAs on matters of risk as a frequent speaker at industry conferences, host of countless webinars and key relationship manager to strategic partners at SEI Investments, TD Ameritrade, LPL, Fidelity, Schwab, Redtail, Orion Advisor Services, MoneyGuidePro and Fi360.
+			He currently resides in his hometown Atlanta with his wife Eva. Tyler and Eva met during the 1992 Summer Olympics in Barcelona and have two sons. Max plays football at Tufts University and studies International Relations. Dylan recently graduated from University College Dublin in Ireland with a degree in Biochemistry and is working towards a Master's in Plant Biotechnology at Universitat Autonoma de Barcelona in Spain. 
 
 		</p>
 	</div>
 	<article slot="under">
 		<p>
-			As an industry thought-leader, he has been published widely and interviewed extensively by The Wall Street Journal, Bloomberg, CNBC, Smart Money, Kiplinger and InvestmentNews. In addition to his work in M&A, Tyler serves as an expert witness in FINRA arbitration disputes and has consulted in multibillion-dollar class action lawsuits, including the BP oil spill in the Gulf of Mexico. 
+			Tyler began his career as a budding entrepreneur in Prague following the collapse of communism. He has lived in the Czech Republic, Scotland, England, and Spain. He holds a B.A. from the University of Georgia and a Master's in International Business with Distinction from the University of St Andrews in Scotland.
 		</p>
-		<p>
-			Tyler began his career as a budding entrepreneur in Eastern Europe following the collapse of communism. He has lived in the Czech Republic, Scotland, England and Spain. He currently resides in his hometown Atlanta with his wife Eva and their two teenage sons.  Max is a promising high school athlete and Dylan is a Biochemistry major at University College Dublin in Ireland.
-		</p>
-		<p>
-			Tyler holds a B.A. from the University of Georgia and a Master’s in International Business with Distinction from the University of St Andrews in Scotland.
-		</p>
-		<a href="/Tyler D. Nunnally Professional Biography.pdf" target="_blank" >Professional Biography</a>
+		<a href="/Tyler Nunnally Professional Biography.pdf" nore target="_blank" >Professional Biography</a>
 	</article>
 </Card>
 <div class="background-fill">

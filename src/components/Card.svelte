@@ -1,6 +1,6 @@
 <script>
     export let content;
-    const { imgUrl, imgAlt, text, header, background, isFipped } = content;
+    const { imgUrl, imgAlt, text, header, background, isFipped, sideStyle } = content;
 </script>
 
 <style>
@@ -75,7 +75,7 @@ img {
     <div class="wrapper">
         <div class="card">
             {#if isFipped}            
-                <div class="content" style="{background.includes('url') ? 'background: #FFF' : ''}">
+                <div class="content" style="{background.includes('url') ? 'background: #FFF' : ''} {sideStyle}">
                     <h3>{header}</h3>   
                     <p>{text}</p>
                     <slot name="side"></slot>
@@ -91,7 +91,7 @@ img {
                         <img src="{imgUrl}" alt="{imgAlt}">
                     {/if}
                 </div>
-                <div class="content" style="{background.includes('url') ? 'background: #FFF' : ''}">
+                <div class="content" style="{background.includes('url') ? 'background: #FFF' : ''} {sideStyle}">
                     <h3>{header}</h3>
                     <p>{text}</p>
                     <slot name="side"></slot>

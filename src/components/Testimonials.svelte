@@ -97,6 +97,15 @@
     gap: 30px;
   }
 
+  @media (max-width: 450px) {
+    section {
+      padding: 3rem 0 5rem;
+    }
+    .testimonial-container {
+      grid-template-columns: unset;
+    }
+  }
+
   .testimonial {
     color: #fefcfb;
     background: rgba(3, 64, 120, 0.5);

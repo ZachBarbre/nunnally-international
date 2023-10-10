@@ -12,6 +12,13 @@
   const reports = {
     reports: [
       {
+        superTitle: "RIA M&A Advice Series (Part II of II)",
+        title: "EXTERNAL SUCCESSION",
+        description: "The Stark Reality of Succession Planning",
+        downloadURI:
+          "/RIA M&A Advice Series - External Succession (Part II of II).pdf",
+      },
+      {
         superTitle: "RIA M&A Advice Series (Part I of II)",
         title: "INTERNAL SUCCESSION",
         description: "The Stark Reality of Succession Planning",

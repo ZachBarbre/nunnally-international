@@ -80,6 +80,14 @@
   const deals = {
     deals: [
       {
+        acquiredLogo: "/c2d-logo.png",
+        acquiredAlt: "C2C Wealth Management LLC Logo",
+        acquiredByLogo: "/dakota-logo.png",
+        acquiredByAlt: "Dakota Wealth Management Logo",
+        acquiredText:
+          "Nunnally International served as a referral partner in the transaction",
+      },
+      {
         acquiredLogo: "/loveless-logo.png",
         acquiredAlt: "Loveless Wealth Management LLC Logo",
         acquiredByLogo: "/dakota-logo.png",

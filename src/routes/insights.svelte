@@ -12,6 +12,14 @@
   const reports = {
     reports: [
       {
+        superTitle: "In The News",
+        title: "PR Newswire - ",
+        boldDescription:
+          "Nunnally International serves as M&A Advisor in acquisition of C2C Wealth Management",
+        description: "",
+        downloadURI: "/Dakota-Wealth-Management-Acquires-C2C-Wealth.pdf",
+      },
+      {
         superTitle: "RIA M&A Advice Series (Part II of II)",
         title: "EXTERNAL SUCCESSION",
         description: "The Stark Reality of Succession Planning",

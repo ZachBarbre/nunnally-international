@@ -27,8 +27,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3rem 3rem 5rem;
-    font-size: 18px;
+    padding: 2rem 2rem 3rem;
+    font-size: 16px;
   }
 
   h2 {
@@ -37,7 +37,7 @@
   }
 
   .testimonial-container {
-    width: 75%;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 30px;

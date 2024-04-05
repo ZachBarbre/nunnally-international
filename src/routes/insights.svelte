@@ -12,6 +12,12 @@
   const reports = {
     reports: [
       {
+        superTitle: "RIA M&A Advice Series",
+        title: "HOW MUCH IS YOUR RIA WORTH?",
+        description: "HOW MUCH IS YOUR RIA WORTH?",
+        downloadURI: "/RIA M&A Advice Series - How Much Is Your RIA Worth.pdf",
+      },
+      {
         superTitle: "In The News",
         title: "PR Newswire - ",
         boldDescription:

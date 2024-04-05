@@ -70,16 +70,28 @@
         title2: "Loveless Wealth Management",
       },
       {
-        text: `I could not imagine navigating the M&A process on our own without Nunnally International. There is an overwhelming amount of detail and care needed throughout the entire process that was foreign to us, and Tyler was able to offer insight and guidance in our quest to find the best possible partner. He took the time to get to know us and we could not be happier with the final result.`,
-        name: "Betsy Rector",
-        title1: "Director, Senior Wealth Advisor",
-        title2: "Partner and Shareholder",
+        text: `After searching and speaking with a number of firms for a couple years I was about to hit pause. Tyler came along and was able to very accurately identify the type of firm that would fit my needs. He knew the landscape, the deals, and how to narrow down possible partners. It was refreshing to have someone of his experience filter through and eventually identify my partner firm.`,
+        name: "Lou Della Valle",
+        title1: "Principal",
+        title2: "C2C Wealth Management",
       },
       {
         text: `Tyler's personal interaction with each of our team members helped solidify what we were all looking for with a potential merger.  His ability to formalize the process of meeting with potential suitors was extremely valuable.  Most importantly, he helped our team stay on the same page as a cohesive unit with a tangible goal in sight.`,
         name: "Brian Suskevitch",
         title1: "Director, Senior Wealth Advisor",
         title2: "Partner and Shareholder",
+      },
+      {
+        text: `I could not imagine navigating the M&A process on our own without Nunnally International. There is an overwhelming amount of detail and care needed throughout the entire process that was foreign to us, and Tyler was able to offer insight and guidance in our quest to find the best possible partner. He took the time to get to know us and we could not be happier with the final result.`,
+        name: "Betsy Rector",
+        title1: "Director, Senior Wealth Advisor",
+        title2: "Partner and Shareholder",
+      },
+      {
+        text: `Always a pleasure working with Tyler and Nunnally International.  Thank you!  Appreciate your ability to identify high caliber firms, clearly articulate needs and priorities for both parties, and helpfully contribute to making the transaction happen.`,
+        name: "Bryan Keller",
+        title1: "Chief Strategic Officer",
+        title2: "Dakota Wealth Management",
       },
     ],
   };

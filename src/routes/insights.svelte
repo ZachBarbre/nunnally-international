@@ -99,7 +99,7 @@
         acquiredByLogo: "/dakota-logo.png",
         acquiredByAlt: "Dakota Wealth Management Logo",
         acquiredText:
-          "Nunnally International served as a referral partner in the transaction",
+          "Nunnally International served as M&A Advisor in the transaction",
       },
       {
         acquiredLogo: "/loveless-logo.png",
@@ -107,7 +107,7 @@
         acquiredByLogo: "/dakota-logo.png",
         acquiredByAlt: "Dakota Wealth Management Logo",
         acquiredText:
-          "Nunnally International served as financial advisors to Loveless Wealth Management LLC",
+          "Nunnally International served as M&A Advisor in the transaction",
       },
       {
         acquiredLogo: "/pfa-logo.png",
@@ -115,7 +115,7 @@
         acquiredByLogo: "/mercer-logo.png",
         acquiredByAlt: "Mercer Advisors Logo",
         acquiredText:
-          "Nunnally International served as a referral partner in the transaction",
+          "Nunnally International served as M&A Advisor in the transaction",
       },
     ],
   };

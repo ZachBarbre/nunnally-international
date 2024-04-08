@@ -12,6 +12,12 @@
   const reports = {
     reports: [
       {
+        superTitle: "RIA M&A Advice Series",
+        title: "HOW MUCH IS YOUR RIA WORTH?",
+        description: "HOW MUCH IS YOUR RIA WORTH?",
+        downloadURI: "/RIA M&A Advice Series - How Much Is Your RIA Worth.pdf",
+      },
+      {
         superTitle: "In The News",
         title: "PR Newswire - ",
         boldDescription:
@@ -93,7 +99,7 @@
         acquiredByLogo: "/dakota-logo.png",
         acquiredByAlt: "Dakota Wealth Management Logo",
         acquiredText:
-          "Nunnally International served as a referral partner in the transaction",
+          "Nunnally International served as M&A Advisor in the transaction",
       },
       {
         acquiredLogo: "/loveless-logo.png",
@@ -101,7 +107,7 @@
         acquiredByLogo: "/dakota-logo.png",
         acquiredByAlt: "Dakota Wealth Management Logo",
         acquiredText:
-          "Nunnally International served as financial advisors to Loveless Wealth Management LLC",
+          "Nunnally International served as M&A Advisor in the transaction",
       },
       {
         acquiredLogo: "/pfa-logo.png",
@@ -109,7 +115,7 @@
         acquiredByLogo: "/mercer-logo.png",
         acquiredByAlt: "Mercer Advisors Logo",
         acquiredText:
-          "Nunnally International served as a referral partner in the transaction",
+          "Nunnally International served as M&A Advisor in the transaction",
       },
     ],
   };

@@ -12,6 +12,13 @@
   const reports = {
     reports: [
       {
+        superTitle: "RIA M&A Advice Series (Part I of II)",
+        title: "BEHAVIORAL FINANCE IN M&A",
+        description: "Beware of Biases That Cost Millions",
+        downloadURI:
+          "/RIA M&A Advice Series - Beware of Biases That Cost Millions.pdf",
+      },
+      {
         superTitle: "RIA M&A Advice Series",
         title: "HOW MUCH IS YOUR RIA WORTH?",
         description: "HOW MUCH IS YOUR RIA WORTH?",

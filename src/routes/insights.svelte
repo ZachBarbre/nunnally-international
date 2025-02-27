@@ -12,6 +12,15 @@
   const reports = {
     reports: [
       {
+        superTitle: "In The News",
+        title: "Press Release - ",
+        boldDescription:
+          "Nunnally International serves as M&A Advisor in Poplar Forest Capital merger with Tocqueville Asset Management",
+        description: "",
+        downloadURI:
+          "/Tocqueville Asset Management Welcomes Poplar Forest Capital Team.pdf",
+      },
+      {
         superTitle: "RIA M&A Advice Series (Part I of II)",
         title: "BEHAVIORAL FINANCE IN M&A",
         description: "Beware of Biases That Cost Millions",
@@ -100,6 +109,15 @@
   const dealsInfoText = "M&A Deals: Our most recently completed transactions";
   const deals = {
     deals: [
+      {
+        acquiredLogo: "/poplar-logo.png",
+        acquiredAlt: "Poplar Forest Capital Logo",
+        acquiredByLogo: "/tocqueville-logo.png",
+        acquiredByAlt: "Tocqueville Logo",
+        acquiredByTextOveride: "has merged with",
+        acquiredText:
+          "Nunnally International served as M&A Advisor in the transaction",
+      },
       {
         acquiredLogo: "/c2d-logo.png",
         acquiredAlt: "C2C Wealth Management LLC Logo",

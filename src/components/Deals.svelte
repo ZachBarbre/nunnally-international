@@ -8,7 +8,13 @@
       <div class="img-wrapper">
         <img src={deal.acquiredLogo} alt={deal.acquiredAlt} />
       </div>
-      <p>has been acquired by</p>
+      <p>
+        {#if deal.acquiredByTextOveride}
+          {deal.acquiredByTextOveride}
+        {:else}
+          has been acquired by
+        {/if}
+      </p>
       <div class="img-wrapper">
         <img src={deal.acquiredByLogo} alt={deal.acquiredByAlt} />
       </div>

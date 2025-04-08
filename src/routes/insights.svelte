@@ -12,6 +12,15 @@
     const reports = {
         reports: [
             {
+                superTitle: "",
+                title: "Press Release - ",
+                boldDescription:
+                    "Nunnally International serves as M&A Advisor in sale of Fiduciary Wealth Advisors to Waverly Advisors",
+                description: "",
+                downloadURI:
+                    "/Waverly Advisors Acquires Fiduciary Wealth Advisors.pdf",
+            },
+            {
                 superTitle: "In The News",
                 title: "Press Release - ",
                 boldDescription:

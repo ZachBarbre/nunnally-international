@@ -11,6 +11,13 @@
         "Market Intelligence: Access our latest market analysis and research on the RIA M&A market";
     const reports = {
         reports: [
+             {
+                superTitle: "RIA M&A Advice Series (Part II of II)",
+                title: "BEHAVIORAL FINANCE IN M&A",
+                description: "Focus on Things That Really Matter",
+                downloadURI:
+                    "/RIA M&A Advice Series - Focus on Things That Really Matter.pdf",
+            },
             {
                 superTitle: "In The News",
                 title: "Press Release - ",

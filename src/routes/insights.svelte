@@ -13,6 +13,12 @@
     reports: [
       {
         superTitle: "RIA M&A Advice Series",
+        title: "How much is your ria worth?",
+        description: "A fresh look at the rapidly evolving deal environment",
+        downloadURI: "/How Much is Your RIA Worth.pdf",
+      },
+      {
+        superTitle: "RIA M&A Advice Series",
         title: "PEOPLE SKILLS",
         description: "Why AI Won't Replace My Job - or Yours",
         downloadURI: "/Why AI Won't Replace My Job - or Yours.pdf",
